@@ -2,44 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        .container {
+          position: relative;
+          
         }
-        .container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 300px;
-            height: 300px;
-            background-color: crimson;
-
+      
+        
+        .container .btn {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #dda53c;
+          color: rgb(230, 227, 227);
+          font-size: 16px;
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          text-align: center;
         }
-        /* .messageOut{
-            width: 180px;
-            background-color: aqua;
-            height: 20px; */
-
-        /* } */
-    </style>
+        
+        .container .btn:hover {
+          background-color: #dda53c;
+        }
+        .a{
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        @media screen and (max-width: 600px) {
+  .btn{
+    width: 100px;
+    height: 30px;
+   
+  }
+.btn .a{
+    font-size: 10px; font-size: 10px;
+ }
+}
+        </style>
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>messege send</h1>
-        <input type="text" class="messageIn">
-        <br>
-        <button type="button" class="sendBtn">SEND</button>
-        <h4 class="messageOut"></h4>
+    <video width="100%" height="100%" controls>
+        <source src="Ring Ceremony Teaser 123.mp4" type="video/mp4">
+        <!-- <source src="movie.ogg" type="video/ogg"> -->
+        Your browser does not support the video tag.
+      </video>
+      <img width="100%" height="100%" src="Blog Headers Large- flower_1.jpg" alt="img">
+      <div style="display: flex; justify-content: center; align-items: center;">
+      <img width="100%" height="100%" src="Untitled Template_1.jpg" alt="img">
     </div>
-    <script src="message.js"></script>
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;"><img width="100%" height="100%" src="Blog Headers Large - Masterpieces_1.jpg" alt="img">
+    </div>
+    <div  class="container" style="display: flex; justify-content: center; align-items: center;">
+         <img width="100%" height="100%" src="Untitled Template_1-2.jpg" alt="img">
+         <button class="btn">
+            <a class="a" href="https://maps.app.goo.gl/3gpyRGCoZgrLMZQT8" target="_blank">View Map</a>
+        </button>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;"><img width="100%" height="100%" src="Blog Headers Large - Masterpieces_1-1 (1).jpg" alt="img">
+    </div>
+    <div  class="container">
+
+        <img width="100%" height="100%" src="Untitled Template_1-1.jpg" alt="img">
+        <button class="btn">
+            <a class="a" href="https://maps.app.goo.gl/3gpyRGCoZgrLMZQT8" target="_blank">View Map</a>
+        </button>
+       
+    </div>
+    
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.4204037426075!2d76.90655149999999!3d13.753502699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb05d442d70e515%3A0x4f4aceaa1112e365!2sShree%20Annapoorneshwari%20Kalyana%20Mantapa!5e0!3m2!1sen!2sin!4v1702829742362!5m2!1sen!2sin" width="100%" height="100vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe> -->
+  
+    
+
     
 </body>
 </html>
